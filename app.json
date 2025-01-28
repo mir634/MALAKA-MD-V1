@@ -1,0 +1,51 @@
+{
+  "name": "MALAKA-MD-V2",
+  "description": "ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍᴀʟᴀᴋᴀ-ᴍᴅ",
+  "logo": "https://i.ibb.co/PwTkwNQ/20241209-212640.jpg",
+  "keywords": ["bot"],
+  "success_url": "/",
+
+    "stack": "container",
+  "env": {
+    "SESSION_ID": {
+      "description": "Put the session-id here.",
+      "required": true,
+      "value": ""
+      
+    },
+    "MONGODB": {
+      "description": "Put your MongoDB Database URL here.",
+      "required": true,
+      "default": ""
+
+    },
+    "OWNER_NUMBER": {
+      "description": "Owner Number",
+      "required": true,
+      "default": "94704243771"
+      
+    },  
+    
+    "ALIVE_IMG": {
+      "description": "paste your image url if you don't have you can use this public url.",
+      "required": true,
+      "value": "https://pomf2.lain.la/f/fxhw0z8c.jpg"
+    
+    },
+    
+    "PREFIX": {
+      "description": "paste your bot prefix note! Don't apply null prefix.",
+      "required": true,
+      "value": "."
+    
+    }
+
+},
+
+     "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
+}
