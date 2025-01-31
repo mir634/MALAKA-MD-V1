@@ -1,51 +1,23 @@
 {
   "name": "MALAKA-MD-V2",
-  "description": "ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍᴀʟᴀᴋᴀ-ᴍᴅ",
+  "description": "MALAKA-MD-V2 has been designed to make things easier and fun while using WhatsApp. 👩‍💻😘",
   "logo": "https://i.ibb.co/PwTkwNQ/20241209-212640.jpg",
-  "keywords": ["bot"],
+  "keywords": ["malakamd", "bot", "whatsapp bot", "multi device", "malaka-md"],
   "success_url": "/",
 
-    "stack": "container",
   "env": {
     "SESSION_ID": {
-      "description": "Put the session-id here.",
-      "required": true,
-      "value": ""
-      
+            "description": "Type the Session-ID you got from scaning QR",
+            "required": true,
+            "value": "put session id here"
+        }
     },
-    "MONGODB": {
-      "description": "Put your MongoDB Database URL here.",
-      "required": true,
-      "default": ""
-
-    },
-    "OWNER_NUMBER": {
-      "description": "Owner Number",
-      "required": true,
-      "default": "94704243771"
-      
-    },  
-    
-    "ALIVE_IMG": {
-      "description": "paste your image url if you don't have you can use this public url.",
-      "required": true,
-      "value": "https://pomf2.lain.la/f/fxhw0z8c.jpg"
-    
-    },
-    
-    "PREFIX": {
-      "description": "paste your bot prefix note! Don't apply null prefix.",
-      "required": true,
-      "value": "."
-    
-    }
-
-},
-
-     "buildpacks": [
+         "buildpacks": [
         {
             "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
         }
      ],
   "stack": "heroku-24"
+  
+  
 }
