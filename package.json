@@ -2,9 +2,9 @@
   "name": "MALAKA-MD-V1",
   "version": "1.0.0",
   "description": "A WhatsApp bot created using Node.js",
-  "main": "index.js",
+  "main": "MALAKA-MD.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name Malaka-md",
+    "start": "pm2 start MALAKA-MD.js --deep-monitoring --attach --name Malaka-md",
     "stop": "pm2 stop Malaka-md",
     "restart": "pm2 restart Malaka-md"
   },
