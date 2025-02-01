@@ -6,7 +6,7 @@
   "success_url": "/",
 
   "env": {
-    "SESSION_ID": {
+    "SESSION_MALAKA-MD~LB8yHZII#FNwrVAGYgIjS6Wf1vInxlYuceyOhs23_H9N7YkrZzlM": {
             "description": "Type the Session-ID you got from scaning QR",
             "required": true,
             "value": "put session id here"
